@@ -1,2 +1,5 @@
-console.log("TypeScript is a super set of javascript");
-console.log("I love Bangladesh");
+let add: (x: number, y: number) => number;
+
+add = (a: number, b: number) => {
+  return a + b;
+};
